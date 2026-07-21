@@ -47,11 +47,13 @@ CLASS zcl_a06_w01 IMPLEMENTATION.
   ENDMETHOD.
 ENDCLASS.
 ```
+</br>
 
 - `CX` : Exception Class(예외 클래스)를 의미하며, 예외 처리에 사용
 - `SE24` 에서 확인 가능
 <img width="591" height="430" alt="image" src="https://github.com/user-attachments/assets/7775490f-dd06-405c-947a-778b98a635f9" />
-
+</br>
+</br>
 
 - 다형성 : 부모 타입으로 여러 자식 객체 사용 가능
 ```abap
