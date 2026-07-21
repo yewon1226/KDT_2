@@ -27,9 +27,10 @@ CLASS zcl_a06_w01 IMPLEMENTATION.
   ENDMETHOD.
 ENDCLASS.
 ```
+</br>
 
-- `READ TABLE` : 안전(덤프 없음), 시스템 변수(sy-subrc, sy-tabix) 변경됨.
-- `airlines[ 10 ]` : 간결함, 없는 인덱스 접근 시 덤프 발생, 시스템 변수 변경 안 됨.
+- **`READ TABLE`** : 안전하게 조회하며, 대상이 없으면 `sy-subrc` 로 확인 가능(덤프 없음).
+- **`itab[ ]`** : 코드가 간결하지만, 대상이 없으면 예외(덤프) 발생하며 `sy-subrc` 는 변경되지 않음.
 ```abap
 CLASS zcl_a06_w01 IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
@@ -42,19 +43,17 @@ CLASS zcl_a06_w01 IMPLEMENTATION.
     IF sy-subrc <> 0.
       out->write( 'Test' ).
     ENDIF.
-*    out->write( sy-subrc ).
-*    out->write( sy-tabix ).
     out->write( airline ).
   ENDMETHOD.
 ENDCLASS.
 ```
 
-- cx : exception class
+- `CX` : Exception Class(예외 클래스)를 의미하며, 예외 처리에 사용
 - `SE24` 에서 확인 가능
 <img width="591" height="430" alt="image" src="https://github.com/user-attachments/assets/7775490f-dd06-405c-947a-778b98a635f9" />
 
 
-- 다형성 : 하나의 타입(부모)이 여러 가지 형태(자식)로 변하거나 동작할 수 있는 성질
+- 다형성 : 부모 타입으로 여러 자식 객체 사용 가능
 ```abap
 TRY.
     < 예외가 발생할 수 있는 실행 코드 >
