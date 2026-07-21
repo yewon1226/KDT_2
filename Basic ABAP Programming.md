@@ -12,7 +12,7 @@
 - 인터페이스: 기능을 연결하는 돼지코(규격/연결부) 역할
 
 <img width="589" height="466" alt="image" src="https://github.com/user-attachments/assets/75e3f7c0-92f8-47f9-9f1b-6a2a0d90a85d" />
-
+</br>
 </br>
 </br>
 </br>
@@ -27,6 +27,7 @@ CLASS zcl_a06_w01 IMPLEMENTATION.
   ENDMETHOD.
 ENDCLASS.
 ```
+</br>
 </br>
 
 - **`READ TABLE`** : 안전하게 조회하며, 대상이 없으면 `sy-subrc` 로 확인 가능(덤프 없음).
@@ -47,6 +48,7 @@ CLASS zcl_a06_w01 IMPLEMENTATION.
   ENDMETHOD.
 ENDCLASS.
 ```
+</br>
 </br>
 
 - `CX` : Exception Class(예외 클래스)를 의미하며, 예외 처리에 사용
