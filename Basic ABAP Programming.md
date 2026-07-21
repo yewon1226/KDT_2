@@ -88,3 +88,19 @@ CLASS zcl_a06_w01 IMPLEMENTATION.
   ENDMETHOD.
 ENDCLASS.
 ```
+</br>
+</br>
+
+- `NEW #( )` : CREATE OBJECT 대신 객체를 생성하는 최신 문법
+```abap
+" 기존
+DATA(lo_obj) TYPE REF TO zcl_test.
+CREATE OBJECT lo_obj.
+
+" 최신
+DATA(lo_obj) = NEW zcl_test( ).
+
+" 타입 추론(#)
+DATA lo_obj TYPE REF TO zcl_test.
+lo_obj = NEW #( )
+```
