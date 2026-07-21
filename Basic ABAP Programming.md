@@ -1,9 +1,14 @@
+## < 07/21 월 >
+### < 단축키 정리 >
 - Ctrl + Shift + F : pretty 정렬
 - F9 : 출력
 - Ctrl + F3 : 액티브
 
-- 슈퍼클래스는 하나만, 인터페이스는 여러개 가능, 이게 멀티 상속
-- 인터페이스 : 돼지코
+</br>
+</br>
+
+- 슈퍼클래스: 하나만 상속 가능(단일 상속), 인터페이스는 여러 개 구현 가능(다중 구현)
+- 인터페이스: 기능을 연결하는 돼지코(규격/연결부) 역할
 
 <img width="589" height="466" alt="image" src="https://github.com/user-attachments/assets/75e3f7c0-92f8-47f9-9f1b-6a2a0d90a85d" />
 
