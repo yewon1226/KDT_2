@@ -174,3 +174,9 @@ ASSIGN connections[ carrid = 'UA' connid = '3516' ]
 CLEAR <fs_info>.
 out->write( connections ).
 ```
+</br>
+</br>
+
+## 과제
+
+<img width="1205" height="666" alt="image" src="https://github.com/user-attachments/assets/8676f193-890c-474b-80f7-821278c8b6a5" />
