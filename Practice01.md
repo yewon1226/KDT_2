@@ -93,4 +93,5 @@
 
 <img width="749" height="395" alt="image" src="https://github.com/user-attachments/assets/bb2c48bc-f608-40c2-8d8e-93836fbafd1a" />
 
-
+- 값 변경 안하고 생성 버튼 클릭시 디버깅 안타고 바로 생성 : optimized 때문에 carrname에 값이 바뀌지 않으면 `check_carrname`을 안탐. 엔터 후 값 변경 후에 저장하면 `check_carrname`을 탐 
+<img width="683" height="204" alt="image" src="https://github.com/user-attachments/assets/29ff1fec-fe99-4592-8bcd-09abed3bf3b6" />
