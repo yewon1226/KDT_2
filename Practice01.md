@@ -95,3 +95,50 @@
 
 - 값 변경 안하고 생성 버튼 클릭시 디버깅 안타고 바로 생성 : optimized 때문에 carrname에 값이 바뀌지 않으면 `check_carrname`을 안탐. 엔터 후 값 변경 후에 저장하면 `check_carrname`을 탐 
 <img width="683" height="204" alt="image" src="https://github.com/user-attachments/assets/29ff1fec-fe99-4592-8bcd-09abed3bf3b6" />
+</br>
+</br>
+</br>
+</br>
+
+---
+
+</br>
+
+## 4) 내부적인 에러 없이 필드 오류 메시지 띄워지는걸 하고싶음 !! -> 꼼수쓰기 (강사님 왈)
+### 문제 상황
+- 에러 뜬 것 확인 
+<img width="1128" height="423" alt="image" src="https://github.com/user-attachments/assets/fddffc5c-7565-42a5-bf91-21b3771b29b5" />
+</br>
+</br>
+</br>
+</br>
+
+- 뒤로 가서 생성 버튼 누르면 또 에러 메시지 ?!!!! 이것은 말이 안된다.
+<img width="673" height="509" alt="image" src="https://github.com/user-attachments/assets/8dce7dec-0e2e-4b38-8039-42d4ad9e7969" />
+</br>
+</br>
+</br>
+</br>
+
+### 해결방안
+- 검증 로직을 두 번 써라 !
+- 엔터 쳤을 땐 failed에 저장하지 않고 생성 버튼 눌렀을 때 failed에 저장하기
+
+<img width="683" height="251" alt="image" src="https://github.com/user-attachments/assets/1c2e4072-5eab-4b60-ba40-d0e4ad40cef0" />
+</br>
+</br>
+</br>
+</br>
+
+<img width="743" height="397" alt="image" src="https://github.com/user-attachments/assets/29165e8a-838f-4d39-8a4d-fc44d3349aba" />
+</br>
+</br>
+</br>
+</br>
+
+<img width="786" height="362" alt="image" src="https://github.com/user-attachments/assets/fc85bd5b-2eba-474f-bcf3-a0cf786dec10" />
+</br>
+</br>
+</br>
+</br>
+
