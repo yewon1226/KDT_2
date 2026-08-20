@@ -1,4 +1,4 @@
-## 1) validation check_carrname on save { field Carrname; } 일 때
+<img width="1130" height="682" alt="image" src="https://github.com/user-attachments/assets/b570992e-aa6d-4634-94fe-e9de2a21734c" />## 1) validation check_carrname on save { field Carrname; } 일 때
 - 최종 액티브 직전 검증 단계
 
 </br>
@@ -104,17 +104,11 @@
 
 </br>
 
-## 4) 내부적인 에러 없이 필드 오류 메시지 띄워지는걸 하고싶음 !! -> 꼼수쓰기 (강사님 왈)
+## 4) 내부적인 에러 메시지 없이 필드 오류 메시지 띄워지는걸 하고싶음 !! -> 꼼수쓰기 (강사님 왈)
 ### 문제 상황
-- 에러 뜬 것 확인 
-<img width="1128" height="423" alt="image" src="https://github.com/user-attachments/assets/fddffc5c-7565-42a5-bf91-21b3771b29b5" />
-</br>
-</br>
-</br>
-</br>
+- 엔터 에러 -> 생성 버튼 클릭 에러 하면 이상한 메시지 뜸 
+<img width="1116" height="892" alt="image" src="https://github.com/user-attachments/assets/ddb60b24-04c8-459c-ad12-f2e330195754" />
 
-- 뒤로 가서 생성 버튼 누르면 또 에러 메시지 ?!!!! 이것은 말이 안된다.
-<img width="673" height="509" alt="image" src="https://github.com/user-attachments/assets/8dce7dec-0e2e-4b38-8039-42d4ad9e7969" />
 </br>
 </br>
 </br>
@@ -142,3 +136,28 @@
 </br>
 </br>
 
+### 결과
+
+<img width="1130" height="682" alt="image" src="https://github.com/user-attachments/assets/411ce849-84e5-4afb-b623-e81d7c7f4482" />
+</br>
+</br>
+</br>
+</br>
+
+---
+
+</br>
+
+## 5) 오류 나고 뒤로 가기 해서(드래프트 버전 생성됨) 생성 버튼 누르면 에러 
+
+<img width="1105" height="657" alt="image" src="https://github.com/user-attachments/assets/ab3fa1ce-ae63-41bf-9286-475bd69a1c89" />
+</br>
+</br>
+</br>
+</br>
+
+#### 해결방안 -> 필수값 쓰기 
+- 필수값 설정을 하면 에러 메세지보다 우선되어서 눈속임 할 수 있음
+```abap
+field ( mandatory : create ) Carrid;
+```
