@@ -41,35 +41,8 @@
 
 </br>
 
-## 2) validation check_carrname on save { create; update; } 일 때
-### 코드
-<img width="542" height="246" alt="image" src="https://github.com/user-attachments/assets/db3fa463-6927-404e-8069-a22aa34df341" />
-</br>
-</br>
-</br>
-</br>
 
-### 결과
-- 엔터 쳐도 아무런 에러 안뜸 -> `on save { create; update; }` 이므로
-  
-<img width="1037" height="284" alt="image" src="https://github.com/user-attachments/assets/e1b708b8-270d-421c-83c8-3f30a839ee14" />
-</br>
-</br>
-</br>
-</br>
-
-- 생성 버튼 누를 때 -> `validation check_carrname on save { create; update; }` 를 타서 에러
-<img width="1025" height="639" alt="image" src="https://github.com/user-attachments/assets/e115e651-e594-4c9f-a756-b154bef75129" />
-</br>
-</br>
-</br>
-</br>
-
----
-
-</br>
-
-## 3) 오류 두 번 체크 안하는 방법 - optimized
+## 2) 오류 두 번 체크 안하는 방법 - optimized
 
 ### 소스코드
 
@@ -104,7 +77,7 @@
 
 </br>
 
-## 4) 내부적인 에러 메시지 없이 필드 오류 메시지 띄워지는걸 하고싶음 !! -> 꼼수쓰기 (강사님 왈)
+## 3) 내부적인 에러 메시지 없이 필드 오류 메시지 띄워지는걸 하고싶음 !! -> 꼼수쓰기 (강사님 왈)
 ### 문제 상황
 - 엔터 에러 -> 생성 버튼 클릭 에러 하면 이상한 메시지 뜸 
 <img width="1116" height="892" alt="image" src="https://github.com/user-attachments/assets/ddb60b24-04c8-459c-ad12-f2e330195754" />
@@ -148,7 +121,7 @@
 
 </br>
 
-## 5) 오류 나고 뒤로 가기 해서(드래프트 버전 생성됨) 생성 버튼 누르면 에러 
+## 4) 오류 나고 뒤로 가기 해서(드래프트 버전 생성됨) 생성 버튼 누르면 에러 
 
 <img width="1105" height="657" alt="image" src="https://github.com/user-attachments/assets/ab3fa1ce-ae63-41bf-9286-475bd69a1c89" />
 </br>
