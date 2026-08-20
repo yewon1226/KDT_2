@@ -20,3 +20,18 @@
 </br>
 </br>
 
+- failed 안쓰면 무시하고 저장이 됨
+- 여기서 쓰면 중복돼서 못함
+- 진짜 체크에서는 failed 쓰고, 가짜 체크에서는 failed 안쓰는거로 
+<img width="627" height="241" alt="image" src="https://github.com/user-attachments/assets/7bc1e617-212c-4691-a97a-5e0ff4584c12" />
+</br>
+</br>
+
+<img width="832" height="398" alt="image" src="https://github.com/user-attachments/assets/379bfce1-7016-4086-99ce-5a803e74c6d2" />
+</br>
+</br>
+
+<img width="796" height="402" alt="image" src="https://github.com/user-attachments/assets/006ef518-1261-4051-b72c-4d6ddb379074" />
+</br>
+</br>
+
