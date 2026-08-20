@@ -66,3 +66,15 @@
 </br>
 
 ## 3) 오류 두 번 체크 안하는 방법 - optimized
+
+### 소스코드
+
+<img width="631" height="266" alt="image" src="https://github.com/user-attachments/assets/a760b47a-26e6-46d9-b27b-e48b84279320" />
+
+</br>
+</br>
+</br>
+</br>
+
+
+<img width="754" height="365" alt="image" src="https://github.com/user-attachments/assets/2fb8fdb6-8238-42f6-bc91-f1d75fe8cce6" />
