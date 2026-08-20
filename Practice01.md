@@ -20,7 +20,7 @@
 </br>
 
 ### 결과
-- 엔터 쳤을 때 -> `validation check_carrname on save { field Carrname; }` 이므로 `draft determine action Prepare` 를 타서 에러
+- Test 입력 후 엔터 쳤을 때 -> `validation check_carrname on save { field Carrname; }` 이므로 `draft determine action Prepare` 를 타서 에러
 <img width="1015" height="807" alt="image" src="https://github.com/user-attachments/assets/193ed0b4-2fb9-4918-9a80-ac0336cd21ab" />
 
 </br>
