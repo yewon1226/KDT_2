@@ -1,4 +1,8 @@
 ## 1) validation check_carrname on save { field Carrname; } 일 때
+- 최종 액티브 직전 검증 단계
+
+</br>
+</br>
 
 ### 소스코드
 <img width="608" height="296" alt="image" src="https://github.com/user-attachments/assets/6f1033f1-9d38-49e3-ac82-62125b08ebd3" />
