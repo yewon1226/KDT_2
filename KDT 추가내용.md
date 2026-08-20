@@ -11,4 +11,6 @@
 </br>
 </br>
 
+- 두번 체크하는게 불편하다 !
+- 
 <img width="396" height="151" alt="image" src="https://github.com/user-attachments/assets/4640dff2-956a-42bc-be21-881eb5532448" />
