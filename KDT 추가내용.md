@@ -14,4 +14,4 @@
 - 두번 체크하는게 불편하다 !
 - 엔터를 누르면 디버깅 탐. 단순 백이 아니기 때문.
 - 옵티멀 있어서 온세이브 하면 값이 바뀌지 않았기 때문에 처음에만 체크함
-<img width="396" height="151" alt="image" src="https://github.com/user-attachments/assets/4640dff2-956a-42bc-be21-881eb5532448" />
+<img width="602" height="288" alt="image" src="https://github.com/user-attachments/assets/aecea51c-b796-45a8-8543-b60dd66faaa0" />
