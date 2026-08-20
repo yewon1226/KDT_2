@@ -1,4 +1,4 @@
-<img width="1130" height="682" alt="image" src="https://github.com/user-attachments/assets/b570992e-aa6d-4634-94fe-e9de2a21734c" />## 1) validation check_carrname on save { field Carrname; } 일 때
+## 1) validation check_carrname on save { field Carrname; } 일 때
 - 최종 액티브 직전 검증 단계
 
 </br>
