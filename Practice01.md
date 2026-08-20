@@ -82,3 +82,15 @@
 
 
 <img width="857" height="395" alt="image" src="https://github.com/user-attachments/assets/e3b050e2-d56c-4397-8425-53a0b2fbe643" />
+</br>
+</br>
+</br>
+</br>
+
+## 결과
+
+- 처음에 값 입력 후 엔터하면 디버깅 탐 : `check_carrname` 
+
+<img width="749" height="395" alt="image" src="https://github.com/user-attachments/assets/bb2c48bc-f608-40c2-8d8e-93836fbafd1a" />
+
+
