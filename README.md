@@ -1,4 +1,4 @@
-# KDT 2기 - SAP ABAP 학습 기록
+# KDT 심화 2기 - SAP ABAP 학습 기록
 
 SAP ABAP KDT 2기 과정 학습 내용을 날짜별로 정리한 레포지토리입니다.
 
